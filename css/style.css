@@ -246,7 +246,8 @@ line-height: 150%;
 .tours{
 	background: #F3F5F4;
 	width: 100%;
-	height: fit-content;	
+	height: fit-content;
+	padding-bottom: 50px;
 }
 .spann{
 	color: #000;
@@ -254,11 +255,14 @@ line-height: 150%;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 20px; /* 142.857% */
+	line-height: 20px;
+	 /* 142.857% */
 }
 .programms{
 	flex-direction: column;
 	width: 50%;
+	margin-right: 90px;
+	margin-bottom: 100px;
 }
 .programms p{
 	margin: 40px 0px 40px 0px ;
@@ -296,8 +300,159 @@ background: #1A3E3E;
 align-items: center;
 justify-content: center;
 border: none;
+transition: all 0.2s ease-out ;
+}
+.price:hover{
+transform: scale(1.1);
 }
 .pictures img{
 	margin: 10px;
 	position: relative;
+	transition: all ease 0.3s;
+}
+.img2:hover{
+	transform: scale(1.03) translate(15px,-15px);
+}
+.img1:hover{
+	transform: scale(1.03) translate(-15px,-15px);
+}
+.img3:hover{
+	transform: scale(1.03) translate(-15px,15px);
+}
+.img4:hover{
+	transform: scale(1.03) translate(15px,15px);
+}
+.pictures{
+	width: 50%;
+  margin-top:50px;
+}
+.slidecontainer{
+	max-width: 580px;
+}
+.slider{
+	width: 100%;
+	height: fit-content;
+	align-items: center ;
+}
+.left{
+	padding-left: 10px;
+}
+.dekstoppictures{
+	display: flex;
+	margin-top: 90px;
+	flex-wrap: nowrap;
+	overflow: auto;
+}
+.container2{
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding-top: 74px;
+}
+.travelcard{
+margin-right: 20px !important;
+}
+.sliderimg{
+border-radius: 0px 0px 32px 32px;
+background: rgba(255, 255, 255, 0.20);
+backdrop-filter: blur(3px);
+max-width:380px;
+max-height:90px;
+position: relative;
+top: -89px;
+display: flex;
+}
+.slider-span{
+color: #FDFDFD;
+font-family: "Nunito Sans",sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+}
+.hh4{
+	color: #FDFDFD;
+font-family: "Nunito Sans",sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+margin: 0; /* 28.8px */
+}
+.sliderimg-text{
+	flex-direction: column;
+	margin:20px 35px;
+	white-space: nowrap;
+}
+.slider-price span{
+	color: #FDFDFD;
+	font-family: "Nunito Sans",sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px; /* 120% */
+}
+.slider-price{
+	display: inline-flex;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+background: rgba(255, 255, 255, 0.30);
+width: 86px;
+height: 40px;
+margin-top: 25px;
+}
+.rating{
+top:-538px;
+	position: relative;
+	
+	float: right;
+}
+.navbar.bg-body-tertiary {
+  background-color: transparent !important;
+}
+.navbar-toggler {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' width='30' height='30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+#phonetour{
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	padding-left: 16px;
+	padding-right:16px ;
+}
+#phonetour h1 {
+align-self: flex-start;
+width: 95%;
+}
+#phonetour h2{
+align-self: flex-start;
+}
+#phonetour p{
+	margin-top: 24px;
+}
+#phonetour button{
+	margin-top: 24px;
+margin-bottom: 40px;
+align-self: center;
+margin-right: 0px;
+margin-left: 0px;
+}
+.picture-btn2{
+	position: relative;
+top:-231px;
+}
+.house2{
+	align-self: center;
 }

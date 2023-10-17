@@ -1,0 +1,163 @@
+@media screen and (min-width: 900px) and (max-width: 9000px) {
+  .slidecontainer {
+    display: none !important; 
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 9000px) {
+  #phonetour{
+    display: none;
+  }
+}
+@media screen and (max-width: 899px) {
+  .dekstoppictures {
+    display: none !important; 
+  }
+  .slidecontainer{
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+.sliderimg{
+  max-width: 560px;
+  top: -90px !important;
+  border-radius: 0 0 44px 44px;
+}
+.rating{
+  top: -580px;
+ 
+}
+.slidecontainer{
+  padding-left: 20px;
+}
+.header-top h1{
+  font-weight: 700;
+  font-family: "NEXT ART", sans-serif;
+  margin-top: 400px;
+  font-size: 8vw;
+  width: 100%;
+}
+}
+@media  screen and (max-width: 1218px) {
+  .dekstoppictures{
+   margin-left: 100px;
+  }
+  .programms{
+    width: 40%;
+    margin-right: 20px;
+  }
+  .pictures img{
+    margin-left: -10px !important;
+  }
+  .container1{
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+}
+/*@media screen and (max-width:1200px) {
+  .programms{
+    width: 100%;
+  }
+  .pictures{
+    display: none;
+  }
+}*/
+@media screen and (max-width: 500px) {
+  .sliderimg{
+    max-width: 560px;
+    top: -65px !important;
+    border-radius: 0 0 25px 25px;
+  }
+  .sliderimg-text h4{
+    font-size: 20px;
+    margin-left: 0px;
+  }
+  .rating{
+    top: -400px;
+   
+  }
+  .sliderimg-text span{
+display: none;
+  }
+  .slider-price{
+    margin-top: 10px;
+  }
+  
+}
+@media screen and (max-width: 360px) {
+  .sliderimg-text{
+    margin: 10px;
+  }  
+  .sliderimg-text h4, span{
+    font-size: 16px;
+  }
+  .sliderimg{
+    top:-60px !important;
+  }
+  .slider-price{
+    margin:10px;
+  }
+  .carousel-inner{
+    margin-left: 10px !important;
+  }
+  
+}
+  @media screen and (max-width: 1084px) {
+    .header-top button{
+      margin-left: 0px;
+    }
+  }
+  @media screen and (max-width: 1184px) {
+    #forphone {
+      margin-right: -30px;
+    }
+    
+  }
+  @media screen and (max-width: 1129px) {
+  .selector{
+    display: none;
+  }  
+  .select{
+    border-radius: 10px;
+  background: transparent !important;
+  backdrop-filter: none;
+  width: fit-content;
+  height: fit-content;
+  padding: 0px;
+  display: flex;
+  white-space: nowrap;
+  margin-top: 32px;
+  margin-bottom: 50px;
+  }
+  .pictures{
+    display: none;
+  }
+  .programms{
+    width: 100%;
+    padding-left: 10px;
+  align-items: center;
+  justify-content: center;
+  }
+  .programms button{
+    margin-left: 40px;
+  }
+  }
+  @media screen and (max-width: 991px) {
+   .nav-menu ul{
+    flex-direction: column;
+    margin-left: -30px;
+   }
+   .nav-menu li{
+    margin-bottom: 20px ;
+   }
+   .nav-menu button {
+    margin-top: 50px ;
+   }
+  }
+  @media screen and (max-width: 980px) {
+    #dekstoptour{
+     display: none;
+    }
+    .mount{
+      display: none;
+       }
+      }
+     

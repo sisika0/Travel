@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="fontstylesheet" href="css/media.css">
-  <link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/font.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="styleshhet" href="css/reset.css">
 	<link rel="stylesheet" href="css/enter.css">
+	<link rel="stylesheet" href="css/media.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>РУМТИБЕТ</title>
@@ -16,20 +16,27 @@
 <body>
 	<header class="header-top" >
 		<div class="container">
-<div class="header-nav">
-	<a href="#"><img src="img/Logo.svg" alt="РУМТИБЕТ ЛОГОТИП" class="logo"></a>
-	<div class="nav-menu">
-		<ul>
-			<li>Главная</li>
-			<li>Про гида</li>
-			<li>Программа тура</li>
-			<li>Стоимость</li>
-			<li>Блог</li>
-			<li>Контакты</li>
-			<a href="enter.html"><button>Консультация</button></a>
-		</ul>
-	</div>
-</div>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#"><img src="img/Logo.svg" alt="РУМТИБЕТ ЛОГОТИП" class="logo"></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="nav-menu">
+							<ul>
+							<li>Главная</li>
+							<li>Про гида</li>
+							<li>Программа тура</li>
+							<li>Стоимость</li>
+							<li>Блог</li>
+							<li>Контакты</li>
+							<a href="enter.html"><button>Консультация</button></a>
+							</ul>
+							</div>
+					</div>
+				</div>
+			</nav>
 <h1>Насладись прогулкой в горах
 	с командой единомышленников</h1>
 	<div class="select">
@@ -47,7 +54,7 @@
 			<input type="date" id="date-input" placeholder="Дата похода">
 			<p>Укажите дату</p>
 		</div>
-		<div class="selector">
+		<div class="selector" id="forphone">
 			<select class="selection">
 				<option value="Glav"  aria-placeholder="Количество">Участники</option>
 				<option value="Glav"  aria-placeholder="Количество">4</option>
@@ -63,7 +70,7 @@
 	</header>
 	<main>
 		<article class="about-us">
-			<div class="container1">
+			<div class="container1" id="dekstoptour">
 				<div class="left">
 <img src="img/mount.svg" class="mount">
 <img src="img/house.svg" class="house">
@@ -76,7 +83,17 @@
 					<button href="#">Программа тура</button>
 				</div>
 			</div>
-		</article>
+			<div class="container" id="phonetour">
+					<h2 class="hh2">о нашем походе</h2>
+					<h1 class="hh1">Исследуйте все горные массивы мира вместе с нами</h1>
+					<p class="pp">Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+					<button href="#">Программа тура</button>
+					<div class="picturee">
+					<img src="img/house.svg" class="house2">
+				</div>
+					<a href="https://www.youtube.com/watch?v=FqtlOd1go78&ab_channel=%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9%D0%9F%D0%B0%D0%BD%D0%B8%D1%85%D0%B8%D0%BD%2F%D0%94%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%96%D0%B8%D0%B7%D0%BD%D1%8C" target="_blank"><div class="picture-btn2"><img src="/img/picture-button.svg"></div></a>
+				</div>
+				</article>
 		<article class="tours">
 			<div class="container1">
 				<div class="programms">
@@ -93,7 +110,7 @@
 					<div class="puncts">
 						<img src="img/shield.svg" class="puncts-img">
 						<div>
-							<h3 class="hh3">Безопасный поход</h3>
+							<h2 class="hh3">Безопасный поход</h2>
 							<span class="spann">Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</span>
 						</div>
 					</div>
@@ -107,8 +124,136 @@
 					<button href="#" class="price">Стоимость программы</button>
 				</div>
 				<div class="pictures">
-<img src="img/up1.svg">
+<img src="img/up1.svg" class="img1">
+<img src="img/up2.svg" class="img2">
+<img src="img/down1.svg" class="img3">
+<img src="img/down2.svg" class="img4">
 				</div>
+			</div>
+		</article>
+
+
+
+
+
+
+
+		<article class="slider">
+			<div class="container2">
+				<div class="slider-text">
+				<h2 class="hh2">по версии отдыхающих</h2>
+				<h1 class="hh1">Популярные направления</h1>
+			</div>
+				<div class="dekstoppictures">
+					<div class="travelcard">
+						<img src="img/tour 1.svg" class="d-block w-100" alt="Озеро возле гор">
+						<div class="sliderimg">
+							<div class="sliderimg-text">
+								<h4 class="hh4">Озеро возле гор</h4>
+								<span class="slider-span">романтическое приключение</span>
+							</div>
+							<div class="slider-price">
+								<span>480 $</span>
+							</div>
+						</div>
+						<img src="img/rating.svg" class="rating">
+					</div>
+					<div class="travelcard">
+						<img src="img/tour 2.svg" class="d-block w-100" alt="Озеро возле гор">
+						<div class="sliderimg">
+							<div class="sliderimg-text">
+								<h4 class="hh4">Озеро возле гор</h4>
+								<span class="slider-span">романтическое приключение</span>
+							</div>
+							<div class="slider-price">
+								<span>480 $</span>
+							</div>
+						</div>
+						<img src="img/rating2.svg" class="rating">
+					</div>
+					<div class="travelcard">
+						<img src="img/tour 3.svg" class="d-block w-100" alt="Озеро возле гор">
+						<div class="sliderimg">
+							<div class="sliderimg-text">
+								<h4 class="hh4">Озеро возле гор</h4>
+								<span class="slider-span">романтическое приключение</span>
+							</div>
+							<div class="slider-price">
+								<span>480 $</span>
+							</div>
+						</div>
+						<img src="img/rating3.svg" class="rating">
+					</div>
+				</div>
+			<div class="slidecontainer">
+				<div id="carouselExampleIndicators" class="carousel slide">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="travelcard">
+								<img src="img/tour 1.svg" class="d-block w-100" alt="Озеро возле гор">
+								<div class="sliderimg">
+									<div class="sliderimg-text">
+										<h4 class="hh4">Озеро возле гор</h4>
+										<span class="slider-span">романтическое приключение</span>
+									</div>
+									<div class="slider-price">
+										<span>480 $</span>
+									</div>
+								</div>
+								<img src="img/rating.svg" class="rating">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="travelcard">
+								<img src="img/tour 2.svg" class="d-block w-100" alt="Озеро возле гор">
+								<div class="sliderimg">
+									<div class="sliderimg-text">
+										<h4 class="hh4">Озеро возле гор</h4>
+										<span class="slider-span">романтическое приключение</span>
+									</div>
+									<div class="slider-price">
+										<span>480 $</span>
+									</div>
+								</div>
+								<img src="img/rating2.svg" class="rating">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="travelcard">
+								<img src="img/tour 3.svg" class="d-block w-100" alt="Озеро возле гор">
+								<div class="sliderimg">
+									<div class="sliderimg-text">
+										<h4 class="hh4">Озеро возле гор</h4>
+										<span class="slider-span">романтическое приключение</span>
+									</div>
+									<div class="slider-price">
+										<span>480 $</span>
+									</div>
+								</div>
+								<img src="img/rating3.svg" class="rating">
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Предыдущий</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Следующий</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		</article>
+		<article class="travel-blog">
+			<div class="container1">
+				
 			</div>
 		</article>
 	</main>
