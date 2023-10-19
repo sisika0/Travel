@@ -342,6 +342,7 @@ transform: scale(1.1);
 	margin-top: 90px;
 	flex-wrap: nowrap;
 	overflow: auto;
+	margin-right:0px;
 }
 .container2{
 	max-width: 1200px;
@@ -455,4 +456,35 @@ top:-231px;
 }
 .house2{
 	align-self: center;
+}
+.travel-blog{
+	background-color: #F3F5F4;
+height: fit-content;
+width: 100%;
+padding-bottom: 100px;
+padding-top: 80px;
+align-items: center;
+display: flex;
+}
+.travel-blog-title{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.travel-pictures-card{
+	padding: 16px;
+}
+.travel-pictures-card{
+	border-radius: 10px;
+background: #FDFDFD;
+height: fit-content;
+max-width: 580px;
+display: flex;
+}
+.travel-pictures-card-text{
+	flex-direction: column;
+}
+#travelcard3{
+	margin-right: 0px !important;
 }

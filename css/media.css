@@ -160,4 +160,11 @@ display: none;
       display: none;
        }
       }
-     
+     @media  screen and (max-width: 1228px) {
+    .search{
+      margin-right:0px ;
+    }
+    .select{
+      padding-right: 0px;
+    }
+     }
