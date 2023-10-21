@@ -168,3 +168,51 @@ display: none;
       padding-right: 0px;
     }
      }
+     @media screen and (min-width: 615px) and (max-width: 9999px) {
+    .travel-blog-phone{
+      display: none;
+
+    }
+     }
+     @media screen and (max-width: 614px) {
+     .travel-blog{
+      display: none;
+     }
+     .travel-blog-phone{
+       padding: 50px 0px;
+       background: #F3F5F4;
+       background-color: #F3F5F4;
+       height: fit-content;
+       width: 100%;
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+     }
+     .travel-blog-card-phone{
+      background: #FDFDFD;
+      border-radius: 10px;
+      align-items: flex-start;
+      align-self: stretch;
+      width: fit-content;
+      height: fit-content;
+      width: 100%;
+      text-align: left;
+     }
+     
+     .travel-blog-card-phone img{
+      width: 100%;
+     }
+     .travel-blog-text-phone{
+      width: 100%;
+      padding: 16px;
+     }
+     #travelandtour3{
+      align-self: center !important;
+      margin-left: auto !important;
+     }
+     .travel-blog-text-phone h1{
+       height: 100px !important;
+     }
+     }
