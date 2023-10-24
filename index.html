@@ -291,7 +291,7 @@
 				</div>
 			</div>
 			</div>
-			<div class="travel-blog-card">
+			<div class="travel-blog-card" id="card4">
 				<img src="img/travel 4.svg">
 				<div class="travel-blog-text" id="travel4">
 					<h1>Индия ... летим?</h1>
@@ -383,6 +383,99 @@
 				<h2 class="hh2">Фото отчет</h2>
 				<h1 class="hh1">Делимся впечатлениями</h1>
 			</div>
+	<div class="ower-photo">
+		<div class="container">
+		 <img src="img/photo 1.svg" class="imge1" >
+		 <img src="img/photo 2.svg" class="imge2" >
+		 <img src="img/photo 3.svg" class="imge3" >
+		 <img src="img/photo 4.svg" class="imge4" >
+		 <img src="img/photo 5.svg" class="imge5" >
+		 <img src="img/photo 6.svg" class="imge6" >
+</div>
+<style>
+	.carousel-indicators {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			position: absolute;
+			bottom: 10px;
+			left: 50%;
+			transform: translateX(-50%);
+			display: flex;
+			justify-content: center;
+			width: 100%;
+	}
+
+	.carousel-indicators li {
+			width: 10px;
+			height: 10px;
+			border-radius: 0%;
+			background-color: #ccc;
+			margin-bottom: 20px;
+			cursor: pointer;
+	}
+
+	.carousel-indicators .active {
+			background-color: #ffffff;
+	}
+</style>
+
+<div class="ower-photo-phone">
+	<div id="carouselExample" class="carousel slide">
+			<ol class="carousel-indicators">
+					<li data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></li>
+					<li data-bs-target="#carouselExample" data-bs-slide-to="1"></li>
+					<li data-bs-target="#carouselExample" data-bs-slide-to="2"></li>
+					<li data-bs-target="#carouselExample" data-bs-slide-to="3"></li>
+					<li data-bs-target="#carouselExample" data-bs-slide-to="4"></li>
+					<li data-bs-target="#carouselExample" data-bs-slide-to="5"></li>
+			</ol>
+			<div class="carousel-inner">
+					<div class="carousel-item active">
+							<img src="img/photo phone 2.svg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+							<img src="img/photo phone 3.svg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+							<img src="img/photo phone 4.svg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+							<img src="img/photo phone 5.svg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+							<img src="img/photo phone 6.svg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+							<img src="img/photo phone 7.svg" class="d-block w-100" alt="...">
+					</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Предыдущий</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Следующий</span>
+			</button>
+	</div>
+</div>
+</div>
+<button class="travelandtour" id="travelandtour2" style="margin: 0 auto; text-align: center; display: block; margin-top: 20px;">Наш Pinterest</button>
+<div class="news">
+	<div class="new-left">
+			<h2>актуально</h2>
+			<h1>Получайте полезные рассылки о путешествиях</h1>
+	</div>
+	<div class="new-right">
+		<h6>Введите e-mail адрес</h2>
+			<form>
+					<input type="email" id="email" name="email" required>
+					<button type="submit">Подписаться</button>
+			</form>
+			<p>Подписываясь на новости, вы автоматически соглашаетесь с условиями обработки персональных данных и правилами рекламных рассылок</p>
+	</div>
+</div>
 			</article>
 	</main>
 </body>

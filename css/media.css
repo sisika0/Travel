@@ -216,3 +216,39 @@ display: none;
        height: 100px !important;
      }
      }
+     @media screen and (min-width: 842px)  and (max-width: 1216px) {
+      .travel-blog .container2{
+        flex-direction: column;
+      }
+     }
+     @media screen and (min-width: 887px) and (max-width: 1250px) {
+        .imge1 {
+          width: 50%;
+        }
+        .imge2{
+          width: 24%;
+        }
+        .imge3 {
+          width: 37%;
+        }
+        .imge4{
+          width: 37%;
+        }
+        .imge5 {
+          width: 50%;
+        }
+        .imge6{
+          width: 24%;
+        }
+       
+     }
+      @media screen and (min-width:888px) and (max-width:9999px) {
+        .ower-photo-phone{
+          display: none;
+        }
+      }
+      @media screen and (min-width:0px) and (max-width:887px) {
+        .ower-photo .container{
+          display: none;
+        }
+      }
