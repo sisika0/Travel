@@ -605,6 +605,7 @@ margin-bottom: 50px;
 		padding-top: 80px;
 		padding-bottom: 100px;
 	  align-items: center;
+		margin-bottom: 100px;
 	}
 	.ower-photo img{
 margin-bottom: 20px;
@@ -624,11 +625,15 @@ box-shadow: 0px 0px 15px 0px rgba(24, 18, 30, 0.12);
 padding: 40px 100px;
 max-width: 1200px;
 height: fit-content;
-position: relative;
+position: absolute;
 display: flex;
 justify-content: space-between;
-margin: 0 auto;
+margin-top: 80px;
+left: 50%;
+transform: translateX(-50%);
+
 	}
+
 	
 	.new-left h1 {
 text-align: left;
@@ -640,6 +645,7 @@ font-weight: 800 !important;
 line-height: 120% !important;
 margin-right: 64px; /* 31.2px */
 width: 100%;
+white-space: nowrap;
 	}
 	.new-left h2{
 		color: #F2BE22;
@@ -702,7 +708,137 @@ letter-spacing: 0.192px;
  border-radius: 4px;
 background: #1A3E3E;
 transition: all 0.3s ease;
+white-space: nowrap;
 }
 .new-right button:hover{
   transform: scale(1.1);
+}
+footer{
+ background: #1A3E3E;
+ height: fit-content;
+ width: 100%;
+ display: flex;
+ padding-top: 180px;
+ padding-bottom: 100px;
+}
+.info{
+	display: flex;
+	flex-wrap: wrap;
+}
+.about-us2 h1{
+	color: #FFF;
+font-family: "Nunito Sans",sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+margin-bottom: 24px;
+}
+.about-us2 p{
+	color: #FFF;
+font-family: "Nunito Sans",sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 100;
+line-height: 20px;
+max-width: 456px;
+margin-right: 44px;
+}
+.social{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+}
+.contacts{
+	display: flex;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.contacts span{
+	color: #FFF;
+font-family: "Nunito Sans",sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px; /* 128.571% */
+margin-right: 24px;
+}
+.contacts span:hover{
+	text-decoration-line: underline;
+	cursor: pointer;
+}
+.social-icons{
+	display: flex;
+	margin-bottom: 40px;
+}
+.social-icons img{
+	margin-right: 16px;
+	transition: all 0.3s ease;
+}
+.social-icons img:hover{
+	transform: scale(1.1);
+	filter: drop-shadow(0px 0px 10px #FFF);
+}
+.services h1{
+	color: #FFF;
+font-family: "Nunito Sans",sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+margin-bottom: 24px;
+}
+.services li{
+	color: #FFF;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 100;
+line-height: 20px;
+margin-bottom: 16px;
+list-style: none;
+margin-left: 0px;
+max-width: 280px;
+text-align: left;
+display: flex;
+align-items: center;
+
+}
+.services ul{
+	margin-left: 0px;
+	padding: 0px;
+	margin-bottom: 50px;
+}
+.services li:hover{
+	text-decoration-line: underline;
+	cursor: pointer;
+	color: #F2BE22;
+}
+.services li::before{
+	content:url("../img/li arrow.svg");
+	margin-right: 10px;
+	display: inline-block;
+}
+#services1{
+	margin-right: 100px;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #18121E;
+	width: 100%;
+	height: fit-content;
+	padding: 24px;
+}
+.footer .container{
+	max-width: 1200px !important;
+	display: flex;
+	justify-content: space-between;
+	color: #FFF;
+	flex-wrap: wrap;
+}
+.footer span{
+	margin-bottom:20px ;
+	margin-right: 20px;
 }

@@ -95,9 +95,7 @@ display: none;
   .slider-price{
     margin:10px;
   }
-  .carousel-inner{
-    margin-left: 10px !important;
-  }
+ 
   
 }
   @media screen and (max-width: 1084px) {
@@ -215,6 +213,10 @@ display: none;
      .travel-blog-text-phone h1{
        height: 100px !important;
      }
+     .footer .container{
+       text-align: center;
+       flex-direction: column; 
+     }
      }
      @media screen and (min-width: 842px)  and (max-width: 1216px) {
       .travel-blog .container2{
@@ -252,3 +254,75 @@ display: none;
           display: none;
         }
       }
+    @media screen and  (max-width: 1220px) {
+     .new-left{
+       margin-right: 0px;
+     }
+     .news{
+      padding-left: 20px;
+      padding-right: 20px;
+     }
+    }
+      
+    @media screen and  (max-width: 1012px) {
+      .news{
+        flex-direction: column;
+        
+      }
+      
+    }
+    @media screen and (min-width:576px) and (max-width: 9999px) {
+      .visible_phone{
+        display: none;
+      }
+    }
+    @media screen and  (max-width: 576px) {
+   .dissaper{
+     display: none;
+   }
+   .news form{
+    flex-direction: column;
+   }
+   .news button{
+    margin-top: 20px;
+    width: 70%;
+   }
+   .news p {
+    width: 80%;
+    margin-top: 40px;
+   }
+   .news{
+    padding-right:0px;
+   
+   }
+   .news h1{
+    margin-right: 20px;
+    white-space: wrap;
+   }
+   .ower-photo-phone{
+   margin: 0 auto;
+
+   margin-right: 20px !important;
+   margin-left: 10px !important;
+   }
+   .house2{
+     max-width: 300px;
+   }
+ 
+
+    }
+    @media screen and (min-width: 576px) and (max-width: 1020px) {
+     footer{
+      margin-top: 200px ;
+     }
+    }
+    @media screen and (min-width: 0px) and (max-width: 575px) {
+      footer{
+       margin-top: 450px ;
+      }
+      .news{
+        width: 95%;
+        box-shadow: 0px 0px 15px 0px rgba(24, 18, 30, 0.39);
+
+      }
+     }
